@@ -14,5 +14,5 @@ require('./views/index.js');
 
 //设置引导页先显示
 SPA.config({
-  indexView: 'guide'
+  indexView: 'index'
 });
