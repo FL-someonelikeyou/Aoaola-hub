@@ -1,0 +1,224 @@
+.m-index {
+    height: 100%;
+    width: 100%;
+    .m-nav {
+        width: 100%;
+        height: 100%;
+        .m-warn {
+            width: 100%;
+            height: 100%;
+            background: #fafbfb;
+            @include flexbox();
+            @include flex-direction(column);
+            header {
+                width: 100%;
+                height: 0.44rem;
+                color: #8fd1c5;
+                text-align: center;
+                line-height: 0.44rem;
+                @include border(0 0 1px 0,#ccc);
+                ul {
+                    @include flexbox();
+                    @include flex-direction();
+                    li {
+                        text-align: center;
+                        &:nth-child(1),
+                        &:nth-child(3) {
+                            @include flex(1);
+                        }
+                         &:nth-child(1){
+                            i{
+                                font-size: .20rem;
+                            }
+                         }
+                        &:nth-child(2) {
+                            @include flex(8);
+                        }
+                    }
+                }
+            }
+            section {
+                @include flex(1);
+                width: 100%;
+                height: 100%;
+                @include flexbox();
+                @include flex-direction(column);
+                ul {
+                    @include flexbox();
+                    @include flex-direction();
+                    width: 100%;
+                    height: 0.56rem;
+                    background: #fff;
+                    @include border(0 0 1px 0,#ccc);
+                    li {
+                        @include flex(1);
+                        @include flexbox();
+                        @include flex-direction(column);
+                        @include align-items(center);
+                        @include justify-content(top);
+                        &.active i,
+                        &.active b {
+                            color: #8fd1c5;
+                        }
+                        i {
+                            font-size: 0.22rem;
+                            line-height: 0.22rem;
+                            color: #989898;
+                            margin-top: 0.08rem;
+                        }
+                        b {
+                            margin-top: 0.05rem;
+                            color: #989898;
+                            font-size: 0.10rem;
+                            line-height: 0.1rem;
+                            font-weight: normal;
+                            margin-top: 0.05rem;
+                        }
+                    }
+                }
+                .swiper-container {
+                    @include flex(1);
+                    width: 100%;
+                    height: 100%;
+                }
+                .nav {
+                    @include flex(1);
+                    width: 100%;
+                    height: 100%;
+                    p.face {
+                        @include flexbox();
+                        @include flex-direction();
+                        width: 100%;
+                        height: 0.4rem;
+                        line-height: 0.4rem;
+                        background: #f5f5f5;
+                        @include border(0 0 1px 0,#ccc);
+                        span {
+                            @include flex(9);
+                            height: 100%;
+                            text-indent: 0.1rem;
+                        }
+                        i {
+                            @include flex(1);
+                            height: 100%;
+                            color: #8fd1c5;
+                            font-size: 24px;
+                        }
+                    }
+                    p.add {
+                        height: 0.4rem;
+                        line-height: 0.4rem;
+                        font-size: 0.08rem;
+                        color: #989898;
+                        background: #fff;
+                        @include border(0 0 1px 0,#ccc);
+                        box-sizing: border-box;
+                        padding-left: 0.1rem;
+                        i{
+                            font-size: 20px;
+                            color: #fdb1ca;
+                        }
+                    }
+                    .hit {
+                        height: 0.4rem;
+                        width: 2.5rem;
+                        margin: 20%;
+                        @include border(1px,#8fd1c5); 
+ //为什么不管用呢                       @include border-radius(.1rem);
+                        color: #8fd1c5;
+                        font-size: 0.08rem;
+                        text-align: center;
+                        line-height: 0.4rem;
+                    }
+                }
+                .past {
+                    background: #f5f5f5;
+                    text-indent: 0.2rem;
+                   
+                    font-size: 0.08rem;
+                    color: #989898;
+                    @include flexbox();
+                    @include flex-direction(column);
+                    .pic {
+                        @include flex(1);
+                        width: 100%;
+                        @include flexbox();
+                        @include flex-direction(column);
+                        @include align-items(end);
+                        img {
+//怎么实现靠下居中？                           
+                           margin:30% auto;
+                            width: 20%;
+                        }
+                    }
+                    p {
+                        @include flex(1);
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                .out {
+                    background: #f5f5f5;
+                    text-indent: 0.2rem;
+                   
+                    font-size: 0.08rem;
+                    color: #989898;
+                    @include flexbox();
+                    @include flex-direction(column);
+                    .pic {
+                        @include flex(1);
+                        width: 100%;
+                        @include flexbox();
+                        @include flex-direction(column);
+                        @include align-items(end);
+                        img {
+                            width: 20%;
+                            margin:30% auto;
+                        }
+                    }
+                    p {
+                        @include flex(1);
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                .omit {
+                    background: #f5f5f5;
+                    text-indent: 0.2rem;
+                   
+                    font-size: 0.08rem;
+                    color: #989898;
+                    @include flexbox();
+                    @include flex-direction(column);
+                    .pic {
+                        @include flex(1);
+                        width: 100%;
+                        @include flexbox();
+                        @include flex-direction(column);
+                        @include justify-content(bottom);
+                        @include align-items(center);
+                        img {
+                            width: 20%;
+                            margin:30% auto;
+                        }
+                    }
+                    p {
+                        @include flex(1);
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<div class="m-index">
+	<div class="m-nav">
+
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="tap.slide" data-tag="home1">
+				<i class="yo-ico">&#xe645;</i>
+				<b>产品</b>
+			</li>
+			<li action-type="tap.slide" data-tag="search">
+				<i class="yo-ico">&#xe613;</i>
+				<b>查批号</b>
+			</li>
+			<li action-type="tap.slide" data-tag="warn">
+				<i class="yo-ico">&#xe609;</i>
+				<b>提醒</b>
+			</li>
+			<li action-type="tap.slide" data-tag="my">
+				<i class="yo-ico">&#xe658;</i>
+				<b>我的</b>
+			</li>
+	</footer>
+</div>

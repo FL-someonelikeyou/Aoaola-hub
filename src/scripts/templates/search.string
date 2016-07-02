@@ -1,0 +1,26 @@
+<div class="m-search">
+	<header>查批号</header>
+	<section>
+		<div class="btn">
+			<span>品牌</span>
+			<input type="text" name="" id="txt1" placeholder="请选择品牌" />
+		</div>
+		<div class="ht01">
+			
+		</div>
+		<div class="btn">
+			<span>批号</span>
+			<input type="text" name="" id="txt1" placeholder="请输入批号" />
+		</div>
+		
+		<p class="exp">查询说明</p>
+		<p class="inc">
+			<i class="yo-ico">&#xe614;</i>
+			<span>立即查询</span>
+		</p>
+	</section>
+</div>
+
+
+
+

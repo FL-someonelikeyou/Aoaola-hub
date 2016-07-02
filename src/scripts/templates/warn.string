@@ -1,0 +1,100 @@
+<div class="m-warn">
+	<header>
+		<ul>
+			<li>
+				<i class="yo-ico" action-type="modal">&#xe772;</i>
+			</li>
+			<li>保质期管理</li>
+			<li>管理</li>
+		</ul>
+	</header>
+	<section>
+		<!--tab切换-->
+		<ul>
+			<li class="active" action-type="warn.slide">
+				<i class="yo-ico">&#xe61c;</i>
+				<b>使用中</b>
+			</li>
+			<li action-type="warn.slide">
+				<i class="yo-ico">&#xe62d;</i>
+				<b>快过期</b>
+			</li>
+			<li action-type="warn.slide">
+				<i class="yo-ico">&#xe627;</i>
+				<b>已过期</b>
+			</li>
+			<li action-type="warn.slide">
+				<i class="yo-ico">&#xe68e;</i>
+				<b>已删除</b>
+			</li>
+		</ul>
+		<!--swiper-->
+		<div class="swiper-container" id="warn-swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="nav">
+						<p class="face">
+							<span>脸部保养(0)</span>
+							<i class="yo-ico">&#xe633;</i>
+						</p>
+						<p class="add">
+							<i class="yo-ico">&#x3454;</i>
+							<span>还没有产品额~赶快添加吧~</span>
+						</p>
+						<p class="face">
+							<span>彩妆(0)</span>
+							<i class="yo-ico">&#xe633;</i>
+						</p>
+						<p class="add">
+							<i class="yo-ico">&#x3454;</i>
+							<span>还没有产品额~赶快添加吧~</span>
+						</p>
+						<p class="face">
+							<span>身体保养(0)</span>
+							<i class="yo-ico">&#xe633;</i>
+						</p>
+						<p class="add">
+							<i class="yo-ico">&#x3454;</i>
+							<span>还没有产品额~赶快添加吧~</span>
+						</p>
+						<p class="face">
+							<span>香水/精油(0)</span>
+							<i class="yo-ico">&#xe633;</i>
+						</p>
+						<p class="add">
+							<i class="yo-ico">&#x3454;</i>
+							<span>还没有产品额~赶快添加吧~</span>
+						</p>
+						<div class="hit">
+							<i class="yo-ico">&#xe633;</i>
+							<span>点击创建其他分类</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide past">
+						<div class="pic">
+							<img src="/aoAola1/img/logo.gif"/>
+						</div>
+						<p>太棒了！您木有快过期产品额~</p>
+					
+				</div>
+				<div class="swiper-slide out">
+					<div class="pic">
+							<img src="/aoAola1/img/logo.gif"/>
+						</div>
+					<p>太棒了！您木有已过期产品额~</p>
+				</div>
+				<div class="swiper-slide omit">
+					<div class="pic">
+							<img src="/aoAola1/img/logo.gif"/>
+						</div>
+					<p>您木有已删除产品额~</p>
+				</div>
+			</div>
+	</section>
+</div>
+
+
+
+
+      

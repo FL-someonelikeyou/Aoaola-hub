@@ -1,0 +1,14 @@
+ <div class="m-modal">
+ 	
+ 
+	 <div class="yo-dialog yo-dialog-a">
+	    <header class="hd">
+	        <h2 class="title">没有账单</h2>
+	
+	    </header>
+	  <div>在保质期中填入价格额~</div>
+	    <footer class="ft">
+	        <button action-type="close" class="yo-btn yo-btn-dialog yo-btn-l">好的</button>
+	    </footer>
+	</div>
+</div>

@@ -1,0 +1,112 @@
+<div class="m-home">
+	<header>产品</header>
+	<div spa-widget="scroll" class="m-fl">
+		<section>
+			<div class="ht1"></div>
+			<nav>
+				<ul>
+					<li>
+						<p style="background: #c4ddff;">
+							<i class="yo-ico" style="color: #87b3ee;">&#xe624;</i>
+						</p>
+						<span>洁面</span>
+					</li>
+					<li>
+						<p style="background: #a8eaf8;">
+							<i class="yo-ico" style="color: #51cbe9;">&#xe75d;</i>
+						</p>
+						<span>化妆水</span>
+					</li>
+					<li>
+						<p style="background: #f5b9e5;">
+							<i class="yo-ico" style="color: #d45bb4;">&#xe606;</i>
+						</p>
+						<span>精华</span>
+					</li>
+					<li>
+						<p style="background: #d3f3b9;">
+							<i class="yo-ico" style="color: #8ad24f;">&#xe75c;</i>
+						</p>
+						<span>乳液</span>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<p style="background: #ffe5d2;">
+							<i class="yo-ico" style="color: #ff7c7c;">&#xe63e;</i>
+						</p>
+						<span>面霜</span>
+					</li>
+					<li>
+						<p style="background: #ffe5d2;">
+							<i class="yo-ico" style="color: #f38a3d;">&#xe636;</i>
+						</p>
+						<span>卸妆</span>
+					</li>
+					<li>
+						<p style="background: #ffd2d2;">
+							<i class="yo-ico" style="color: #ff8989;">&#xe705;</i>
+						</p>
+						<span>面膜</span>
+					</li>
+					<li>
+						<p style="background: #e1e1e1;">
+							<i class="yo-ico" style="color: #fafafa;">&#xe604;</i>
+						</p>
+						<span>更多</span>
+					</li>
+				</ul>
+			</nav>
+			<div class="ht1"></div>
+			<!--轮播图-->
+			<div class="swiper-container" id="guide-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="/Aoaola1/img/banner.gif" />
+					</div>
+					<div class="swiper-slide">
+						<img src="/Aoaola1/img/banner.gif" />
+					</div>
+					<div class="swiper-slide">
+						<img src="/Aoaola1/img/banner.gif" />
+					</div>
+				</div>
+				<!--分页器-->
+				<div class="swiper-pagination"></div>
+			</div>
+
+			<div class="r-container">
+				<span>凹凹啦▪甄选|</span>
+				<i>剁手第二弹！防晒专场，团购5.9折起</i>
+			</div>
+			<!--表单字段集-->
+			<div class="fiel">
+				<fieldset></fieldset>
+				<fieldset>
+					<legend>&nbsp;&nbsp;文章推荐&nbsp;&nbsp;</legend>
+				</fieldset>
+				<fieldset></fieldset>
+			</div>
+<!--上拉加载更多-->
+			<div class="pic1" ms-repeat-value="more">
+				<img ms-src="value.imgsrc">
+				<p ms-text="value.title"></p>
+				<!--<ul>
+					<li>2016-02-14</li>
+					<li>
+						<i class="yo-ico">&#xe617;</i>
+						<span >16</span>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe61e;</i>
+						<span >0</span>
+					</li>
+				</ul>-->
+			</div>
+			
+			
+			
+
+		</section>
+	</div>
+</div>

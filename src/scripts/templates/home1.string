@@ -1,0 +1,120 @@
+<div class="m-home">
+	<header>产品</header>
+	<div  class="m-fl"  spa-widget="scroll" data-scroll-id="homeHotScroll">
+		<section >
+			<!--<div class="up">
+					<i class="yo-ico" style="font-size: .20rem;">&#xe623;</i>
+					<span>上拉刷新</span>
+				</div>
+		-->
+			<nav>
+				<ul>
+					<li>
+						<p style="background: #c4ddff;">
+							<i class="yo-ico" style="color: #87b3ee;">&#xe624;</i>
+						</p>
+						<span>洁面</span>
+					</li>
+					<li>
+						<p style="background: #a8eaf8;">
+							<i class="yo-ico" style="color: #51cbe9;">&#xe75d;</i>
+						</p>
+						<span>化妆水</span>
+					</li>
+					<li>
+						<p style="background: #f5b9e5;">
+							<i class="yo-ico" style="color: #d45bb4;">&#xe606;</i>
+						</p>
+						<span>精华</span>
+					</li>
+					<li>
+						<p style="background: #d3f3b9;">
+							<i class="yo-ico" style="color: #8ad24f;">&#xe75c;</i>
+						</p>
+						<span>乳液</span>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<p style="background: #ffe5d2;">
+							<i class="yo-ico" style="color: #ff7c7c;">&#xe63e;</i>
+						</p>
+						<span>面霜</span>
+					</li>
+					<li>
+						<p style="background: #ffe5d2;">
+							<i class="yo-ico" style="color: #f38a3d;">&#xe636;</i>
+						</p>
+						<span>卸妆</span>
+					</li>
+					<li>
+						<p style="background: #ffd2d2;">
+							<i class="yo-ico" style="color: #ff8989;">&#xe705;</i>
+						</p>
+						<span>面膜</span>
+					</li>
+					<li>
+						<p style="background: #e1e1e1;">
+							<i class="yo-ico" style="color: #fafafa;">&#xe604;</i>
+						</p>
+						<span>更多</span>
+					</li>
+				</ul>
+			</nav>
+			<div class="ht1"></div>
+			<!--轮播图-->
+			<div class="swiper-container" id="guide-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="/Aoaola1/img/banner.gif" />
+					</div>
+					<div class="swiper-slide">
+						<img src="/Aoaola1/img/banner.gif" />
+					</div>
+					<div class="swiper-slide">
+						<img src="/Aoaola1/img/banner.gif" />
+					</div>
+				</div>
+				<!--分页器-->
+				<div class="swiper-pagination"></div>
+			</div>
+
+			<div class="r-container">
+				<span>凹凹啦▪甄选|</span>
+				<i>剁手第二弹！防晒专场，团购5.9折起</i>
+			</div>
+			<!--表单字段集-->
+			<div class="fiel">
+				<fieldset></fieldset>
+				<fieldset>
+					<legend>&nbsp;&nbsp;文章推荐&nbsp;&nbsp;</legend>
+				</fieldset>
+				<fieldset></fieldset>
+			</div>
+			<!--图片	-->
+			<div ms-repeat-value="livelist" class="pic1"     >
+				
+				<img ms-src="value.coverPicUrl" />
+				<p ms-text="value.title"></p>
+				<ul >
+					<li ms-text="value.createTime"></li>
+					<li>
+						<i class="yo-ico">&#xe617;</i>
+						<span  ms-text="value.hotCount"></span>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe61e;</i>
+						<span  ms-text="value.replyCount"></span>
+					</li>
+				</ul>
+				
+			</div>
+			
+				<div class="down">
+					<i class="yo-ico">&#xe623;</i>
+					<span>下拉加载更多</span>
+				</div>
+
+		</section>
+	</div>
+</div>

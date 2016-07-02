@@ -1,0 +1,50 @@
+<div class="m-my">
+	<header>
+		<ul>
+			<li>
+				<img src="/aoAola1/img/logo1.gif"/>
+			</li>
+			<li>186****8799</li>
+			<li>一句话介绍自己吧！</li>
+		</ul>
+	</header>
+	<section>
+		<p>
+			<i class="yo-ico" style="color: #46b3ac;">&#xe6cc;</i>
+			<span>保质期提醒</span>
+			<em><i class="yo-ico">&#xe60d;</i></em>
+		</p>
+		<p>
+			<i class="yo-ico" style="color: #f5dfa1;">&#xe67f;</i>
+			<span>我的相册</span>
+			<em><i class="yo-ico">&#xe60d;</i></em>
+		</p>
+		<p>
+			<i class="yo-ico" style="color: #ff7c7c;">&#xe666;</i>
+			<span>我的收藏</span>
+			<em><i class="yo-ico">&#xe60d;</i></em>
+		</p>
+		<div class="ht5"></div>
+		<p>
+			<i class="yo-ico" style="color: #649c35;">&#xe6e4;</i>
+			<span>凹星球</span>
+			<em><i class="yo-ico">&#xe60d;</i></em>
+		</p>
+		<p>
+			<i class="yo-ico" style="color: #87b3ee;">&#xe6b0;</i>
+			<span>意见反馈</span>
+			<em><i class="yo-ico">&#xe60d;</i></em>
+		</p>
+		<p>
+			<i class="yo-ico" style="color: #46b3ac;">&#xe600;</i>
+			<span>关于凹凹啦</span>
+			<em><i class="yo-ico">&#xe60d;</i></em>
+		</p>
+		<div class="ht5"></div>
+		<p>
+			<i class="yo-ico" style="color: #f38a3d;">&#xe68f;</i>
+			<span>设置</span>
+			<em><i class="yo-ico">&#xe60d;</i></em>
+		</p>
+	</section>
+</div>
